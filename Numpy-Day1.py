@@ -12,11 +12,11 @@ txt = np.genfromtxt("world_alcohol.txt", delimiter=",", dtype="U75", skip_header
 #會列印出 NaN (Not a Number)  無法表示 
 print("一、印出文本內容(跳過第零列)")
 print(txt)
-print("\n\n")   #我只是拿來防止老花眼的
+print("\n\n")  
 
 print("二、印出檔案的類型")
 print(type(txt))
-print("\n\n")   #不要黏踢踢
+print("\n\n")   
 
 #建立一個1x4的列表
 vector = np.array([5, 10, 15, 20]) # 1x4
@@ -25,7 +25,7 @@ matrix = np.array([[5, 10, 15], [20, 25, 30], [35, 40, 45]])
 print ("三、列印剛剛所創1x4及3x3列表")
 print (vector)
 print (matrix)
-print("\n\n")   #不要太靠近
+print("\n\n")   
 
 print("四、列印vector的列表形狀")
 print(vector.shape)
